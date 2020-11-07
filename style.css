@@ -1,0 +1,9 @@
+
+body {background-color: powderblue;}
+h1   {color: blue;}
+h2   {color: green;
+	  background-color: yellow;
+	  font-family: verdana;
+	  font-weight: bold;}
+p    {color: blue;}
+span {background: blue;}
