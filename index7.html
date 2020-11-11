@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form actions</title>
+</head>
+<body>
+	<h1> Input Fields : </h1>
+<script type="text/javascript">
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	console.log(urlParams);
+	const fname = urlParams.get('fname');
+	const lname = urlParams.get('lname');
+	const phnumber= urlParams.get('phnumber');
+	document.write(fname + " ");
+	document.write(" " + lname);
+	document.write(" : " + phnumber);
+</script>
+</body>
+</html>
